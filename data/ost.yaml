@@ -1,0 +1,26 @@
+image_width: 1920
+image_height: 1080
+camera_name: back_fisheye
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [522.20733,   0.59676, 948.56007,
+           0.     , 522.44426, 523.27503,
+           0.     ,   0.     ,   1.     ]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.102382, -0.019811, -0.003788, 0.000853]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [522.20733,   0.59676, 948.56007,   0.     ,
+           0.     , 522.44426, 523.27503,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]
